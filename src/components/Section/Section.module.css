@@ -1,0 +1,45 @@
+.promo {
+  & h1 {
+    font-size: 64px;
+    max-width: 356px;
+  }
+  .content {
+    gap: 74px;
+
+    & p {
+      font-weight: 600;
+      font-size: 22px;
+    }
+  }
+}
+
+.about {
+  align-items: center;
+  gap: 26px;
+
+  & h2 {
+    font-size: 36px;
+  }
+  .content {
+    gap: 20px;
+    align-items: flex-start;
+    max-width: 481px;
+    & p {
+      max-width: 450px;
+      line-height: 30px;
+      color: #7d7987;
+    }
+    & button {
+      margin-top: 20px;
+    }
+  }
+}
+
+.reverse {
+  & div {
+    order: 2;
+  }
+  & img {
+    order: 1;
+  }
+}
