@@ -1,0 +1,20 @@
+.input {
+  appearance: none;
+  border: 2px solid #afb0b9;
+  border-radius: 6px;
+  font-size: 1rem;
+  padding: 16px 31px;
+  max-width: 220px;
+  transition: all 0.3s ease-in;
+  color: #4a4c53;
+  &:hover,
+  &:focus {
+    outline: none;
+    border: 2px solid var(--primary-bg-color);
+    box-shadow: 0 0 5px var(--primary-bg-color);
+  }
+}
+.input::placeholder {
+  text-transform: capitalize;
+  color: #4a4c53;
+}
